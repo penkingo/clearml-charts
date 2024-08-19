@@ -6,7 +6,7 @@ entries:
         - kind: changed
           description: app version 1.16.1
     apiVersion: v2
-    appVersion: "1.16"
+    appVersion: "1.17"
     created: "2024-08-19T16:16:57.984202963+02:00"
     dependencies:
     - condition: redis.enabled
