@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  clearml:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: app version 1.16.1
+    apiVersion: v2
+    appVersion: "1.16"
+    created: "2024-08-19T16:16:57.984202963+02:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.8.3
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.17.3
+    description: MLOps platform
+    digest: cc1dce9d14e9781b6e9218264a467c17a162efc559cbab1a1d182c48bfe5146c
+    home: https://clear.ml
+    icon: https://raw.githubusercontent.com/allegroai/clearml/master/docs/clearml-logo.svg
+    keywords:
+    - clearml
+    - machine learning
+    - mlops
+    kubeVersion: '>= 1.21.0-0 < 1.31.0-0'
+    maintainers:
+    - name: valeriano-manassero
+      url: https://github.com/valeriano-manassero
+    name: clearml
+    sources:
+    - https://github.com/allegroai/clearml-helm-charts
+    - https://github.com/allegroai/clearml
+    type: application
+    urls:
+    - https://gpenkin.github.io/clearml-charts/clearml-7.11.1.tgz
+    version: 7.11.1
+generated: "2024-08-19T16:16:57.974454907+02:00"
