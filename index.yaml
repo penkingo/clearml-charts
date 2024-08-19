@@ -39,6 +39,6 @@ entries:
     - https://github.com/allegroai/clearml
     type: application
     urls:
-    - https://gpenkin.github.io/clearml-charts/clearml-7.11.1.tgz
+    - https://penkingo.github.io/clearml-charts/clearml-7.11.1.tgz
     version: 7.11.1
 generated: "2024-08-19T16:16:57.974454907+02:00"
